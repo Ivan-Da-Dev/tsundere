@@ -1,0 +1,164 @@
+
+body{
+    background-color: transparent;
+}
+
+.cover_bg{
+    background-color: black;
+    opacity: 0.5;
+    height: 200%;
+    width: 100%;
+    position: absolute;
+    top: 0px;
+    z-index: 1;
+}
+
+div.divider{
+    width: 100%;
+    height: 10%;
+    position: absolute;
+    background-color: black;
+    z-index: 1;
+}
+
+#discord{
+    top: 0px;
+    right: 0px;
+    width: 15%;
+    height: 15%;
+    position: absolute;
+    z-index: 3;
+}
+
+#bg{
+    z-index: 0;
+}
+.card{
+    border-radius: 10px;
+    width: 35%;
+    height: 90%;
+    top: 0%;
+    right: 40%;
+    position: absolute;
+    background-size: cover;
+    z-index: 2;
+}
+
+h5#name{
+    top: 60%;
+    font-size: 40px;
+    text-shadow: 0px 5px 45px black;
+    left: 2%;
+    position: absolute;
+}
+
+p#desc{
+    font-size: 20px;
+    top: 80%;
+    left: 2%;
+    text-shadow: 0px 0px 60px black;
+    position: absolute;
+}
+
+h6#ranking{
+    right: 1%;
+    position: absolute;
+    font-size: 70px;
+    color: gold;
+}
+
+/* Louise */
+div.bg_louise{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    background-image: url('https://wallpapercave.com/wp/wp2157127.jpg');
+    background-size: cover;
+}
+
+div#louise h5#name{
+    color: rgb(252, 161, 176);
+}
+
+div#louise{
+    color: rgb(247, 112, 135);
+
+    top: 5%;
+    right: 33%;
+    position: absolute;
+    background-image: url('https://preview.redd.it/hi9pinqpm4h31.png?auto=webp&s=1c4e8138efaef1e857082a594406f0f6e70c7a00');
+}
+
+#a1{
+    top: 100%;
+}
+/* Sistine */
+div.bg_sistine{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 100%;
+    right: 0px;
+    background-image: url('https://images.alphacoders.com/819/thumb-1920-819678.png');
+    background-size: cover;
+}
+
+div#sistine h5#name{
+    color: whitesmoke;
+}
+
+div#sistine{
+    color: white;
+
+    top: 105%;
+    right: 33%;
+    position: absolute;
+    background-image: url('https://i.pinimg.com/originals/26/15/08/261508769d92057b0b9195dc4f14f5ff.jpg');
+}
+
+@media only screen and (max-width: 800px) {
+    .card{
+        border-radius: 10px;
+        width: 65%;
+        height: 90%;
+        top: 0%;
+        right: 40%;
+        position: absolute;
+        background-size: cover;
+    }
+
+    h5#name{
+        top: 60%;
+        font-size: 40px;
+        text-shadow: 0px 5px 45px black;
+        left: 2%;
+        position: absolute;
+    }
+
+    p#desc{
+        font-size: 20px;
+        top: 80%;
+        left: 2%;
+        text-shadow: 0px 0px 60px black;
+        position: absolute;
+    }
+
+    h6#ranking{
+        right: 1%;
+        position: absolute;
+        font-size: 70px;
+        color: gold;
+    }
+
+    div#louise{
+        top: 10%;
+        right: 16%;
+    }
+
+    div#sistine{
+        top: 105%;
+        right: 16%;
+    }
+}
